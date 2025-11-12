@@ -6,7 +6,7 @@
 
 ---
 
-## 🚀 Overview
+##  Overview
 This project demonstrates two Node.js concepts:
 1. **Streaming with client-abort awareness**
 2. **Content negotiation (JSON vs XML)**
@@ -15,7 +15,7 @@ Both are implemented using **Express.js** and tested using a simple Node client 
 
 ---
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ### Step 1: Install dependencies
 ```bash
@@ -43,7 +43,7 @@ node client.js
 
 ---
 
-## 🧩 Output Explanation
+##  Output Explanation
 
 ### Task 1 — Streaming
 The client connects to `/stream` and prints streaming lines like:
@@ -63,7 +63,7 @@ The client requests `/data` twice:
 
 ---
 
-## 📚 Concepts Demonstrated
+##  Concepts Demonstrated
 - Streaming using `res.write()`  
 - Detecting client disconnect with `req.on('close')`  
 - Backpressure handling via `'drain'` (where applicable)  
@@ -71,7 +71,7 @@ The client requests `/data` twice:
 
 ---
 
-## ✅ Credentials
+##  Credentials
 **Student Name:** Akshat Singh  
 **Roll No:** GF202344124  
 **Program:** BCA FULL STACK DEVELOPER  
